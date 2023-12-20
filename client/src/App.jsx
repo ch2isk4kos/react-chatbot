@@ -33,7 +33,7 @@ function App() {
         messages: [{ role: "system", content: "Nice to meet you!" }, ...chats],
       })
       .then((res) => {
-        msgs.push(res.data.choices[0].message);
+        msgs.push(res.choices[0].message);
         setChats(msgs);
         setIsTyping(false);
       })
