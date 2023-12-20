@@ -1,9 +1,10 @@
 .Chatbot {
   /* display: none; */
+  position: relative;
   text-decoration: none;
   align-items: center;
   justify-content: center;
-  top: 5%;
+  width: 65%;
   background-color: #2e3137;
   border: 2px solid gold;
 }
