@@ -45,7 +45,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Welcome Home</h1>
+      <h1>React Chatbot</h1>
       <section>
         {chats && chats.length
           ? chats.map((chat, index) => (
