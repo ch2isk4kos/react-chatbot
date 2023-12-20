@@ -1,4 +1,4 @@
-import Chatbot from "./components/Chatbot";
+import Chatbox from "./components/Chatbox";
 import Sidebar from "./components/Sidebar";
 import "./App.css";
 
@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <Sidebar />
-      <Chatbot />
+      <Chatbox />
     </div>
   );
 }
