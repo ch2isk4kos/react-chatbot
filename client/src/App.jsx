@@ -35,6 +35,7 @@ function App() {
       .then((res) => {
         msgs.push(res.choices[0].message);
         setChats(msgs);
+        console.log("chats", chats);
         setIsTyping(false);
       })
       .catch((err) => {
@@ -45,11 +46,24 @@ function App() {
   return (
     <div className="App">
       <h1>Welcome Home</h1>
+      <section>
+        {chats && chats.length
+          ? chats.map((chat, index) => (
+              <p key={index} className={chat.role === "user" ? "user_msg" : ""}>
+                <span>
+                  <b>{chat.role.toUpperCase()}</b>
+                </span>
+                <span>:</span>
+                <span>{chat.content}</span>
+              </p>
+            ))
+          : ""}
+      </section>
       <form action="" onSubmit={(e) => sendMessageToAI(e, message)}>
         <input
           type="text"
-          value={message}
           name="message"
+          value={message}
           placeholder="Type your message here..."
           onChange={(e) => setMessage(e.target.value)}
         />
