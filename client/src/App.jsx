@@ -1,10 +1,11 @@
 import Chatbot from "./components/Chatbot";
+import Sidebar from "./components/Sidebar";
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <h1>React Chatbot</h1>
+      <Sidebar />
       <Chatbot />
     </div>
   );
