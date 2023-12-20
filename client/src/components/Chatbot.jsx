@@ -1,5 +1,6 @@
 import { useState } from "react";
 import OpenAI from "openai";
+import "../styles/chatbot.css";
 
 const API_KEY = import.meta.env.VITE_OPENAI_API_KEY;
 
@@ -42,6 +43,7 @@ const Chatbot = () => {
 
   return (
     <div className="Chatbot">
+      <h1>React Chatbot</h1>
       <section>
         {chats && chats.length
           ? chats.map((chat, index) => (
