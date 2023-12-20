@@ -22,18 +22,22 @@
   position: absolute;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-between;
   bottom: 0;
+  height: 5em;
+  width: 100%;
   border: 2px solid crimson;
 }
 
 .Sidebar .settings .bottom-left {
-  /* position: relative; */
+  position: relative;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   border: 2px solid blue;
 }
 .Sidebar .settings .bottom-right {
+  position: relative;
+  right: 20px;
   border: 2px solid blue;
 }
