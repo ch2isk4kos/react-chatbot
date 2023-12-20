@@ -6,12 +6,12 @@ const Sidebar = () => {
       <section className="open-chats"></section>
       <section className="settings">
         <div className="bottom-left">
-          <p>Link</p>
-          <p>Link</p>
-          <p>Link</p>
+          <p className="option">Link</p>
+          <p className="option">Link</p>
+          <p className="option">Link</p>
         </div>
         <div className="bottom-right">
-          <p>Link</p>
+          <p className="hamburger">Link</p>
         </div>
       </section>
     </div>
