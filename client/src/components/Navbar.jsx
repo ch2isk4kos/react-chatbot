@@ -3,6 +3,7 @@ import "../styles/navbar.css";
 const Navbar = () => {
   return (
     <nav className="Navbar">
+      <h1 className="logo">LOGO</h1>
       <ul>
         <li className="link">
           <a
