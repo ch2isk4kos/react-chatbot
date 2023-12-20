@@ -6,9 +6,13 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <Sidebar />
-      <Chatbox />
+      <header>
+        <Navbar />
+      </header>
+      <section>
+        <Sidebar />
+        <Chatbox />
+      </section>
     </div>
   );
 }
