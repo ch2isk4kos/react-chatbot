@@ -4,7 +4,7 @@
   text-decoration: none;
   align-items: center;
   justify-content: center;
-  top: 20px;
+  top: 0;
   left: 0;
   width: 35%;
   height: 100%;
@@ -28,7 +28,7 @@
 }
 
 .Sidebar .settings .bottom-left {
-  position: relative;
+  /* position: relative; */
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
