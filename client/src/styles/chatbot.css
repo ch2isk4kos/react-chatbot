@@ -1,10 +1,47 @@
 .Chatbot {
-  /* display: none; */
-  text-decoration: none;
+  position: relative;
+  top: 5%;
+  display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   width: 65%;
   height: 100vh;
   background-color: #2e3137;
+  text-decoration: none;
   border: 2px solid gold;
+}
+
+.Chatbot h1 {
+  position: absolute;
+  top: 6%;
+  font-size: 4em;
+}
+
+.Chatbot .conversation {
+  height: 50%;
+  width: 50%;
+  overflow-y: scroll;
+  border: 2px solid crimson;
+}
+
+.Chatbot textarea {
+  position: relative;
+  top: 2em;
+  width: 23rem;
+  height: 5rem;
+  resize: none;
+  overflow-y: scroll;
+  border: 2px solid crimson;
+}
+
+.Chatbot button {
+  margin-top: 2em;
+  width: 23rem;
+  border: 2px solid gold;
+}
+
+.Chatbot .isTyping {
+  margin-top: 2em;
+  /* border: 2px solid gold; */
 }

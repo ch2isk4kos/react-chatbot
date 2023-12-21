@@ -44,31 +44,33 @@ const Chatbot = () => {
   return (
     <div className="Chatbot">
       <h1>React Chatbot</h1>
-      <section>
+      <div className="conversation">
         {chats && chats.length
           ? chats.map((chat, index) => (
               <p key={index} className={chat.role === "user" ? "user_msg" : ""}>
                 <span>
                   <b>{chat.role.toUpperCase()}</b>
                 </span>
-                <span>:</span>
+                <span>: </span>
                 <span>{chat.content}</span>
               </p>
             ))
           : ""}
-      </section>
+      </div>
       <form action="" onSubmit={(e) => sendMessageToAI(e, message)}>
-        <input
+        <textarea
+          className="input-box"
           type="text"
           name="message"
           value={message}
-          placeholder="Type your message here..."
+          placeholder="Type your prompt here..."
           onChange={(e) => setMessage(e.target.value)}
         />
+        <button className="submit-btn">Submit</button>
       </form>
       <div className={isTyping ? "" : "hide"}>
         <p>
-          <i>{isTyping ? "Typing" : ""}</i>
+          <i className="isTyping">{isTyping ? "Typing..." : ""}</i>
         </p>
       </div>
     </div>
