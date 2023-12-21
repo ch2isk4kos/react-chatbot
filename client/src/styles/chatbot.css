@@ -20,7 +20,7 @@
 
 .Chatbot .chatbox {
   height: 50%;
-  width: 55%;
+  width: 75%;
   overflow-y: scroll;
   border-radius: 0.5em;
   border: 2px solid crimson;
@@ -29,12 +29,17 @@
 .Chatbot form {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 75%;
+  overflow-x: hidden;
+  border: 2px solid green;
 }
 
 .Chatbot textarea {
   position: relative;
   top: 1em;
-  width: 25rem;
+  min-width: 75%;
   height: 5rem;
   padding: 0.5em;
   resize: none;
@@ -45,7 +50,7 @@
 
 .Chatbot button {
   margin-top: 1.5em;
-  width: 25.25rem;
+  min-width: 75%;
   border-radius: 0.5em;
   border: 2px solid gold;
 }
@@ -58,7 +63,7 @@
 .Chatbot .settings {
   position: absolute;
   bottom: 4em;
-  width: 25.25rem;
+  min-width: 75%;
   height: 5rem;
   z-index: 100;
   border: 2px solid gold;
