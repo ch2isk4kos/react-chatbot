@@ -57,7 +57,5 @@ const Sidebar = () => {
     </>
   );
 };
-{
-  /* <div className={`hamburger-menu ${isActive ? "hide-hamburger-menu" : ""}`}></div> */
-}
+
 export default Sidebar;
