@@ -26,6 +26,11 @@
   border: 2px solid crimson;
 }
 
+.Chatbot form {
+  display: flex;
+  flex-direction: column;
+}
+
 .Chatbot textarea {
   position: relative;
   top: 1em;
