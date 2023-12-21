@@ -74,6 +74,12 @@ const Chatbot = () => {
           <i className="isTyping">{isTyping ? "Typing..." : ""}</i>
         </p>
       </div>
+      <div className="settings"></div>
+      <div className="author">
+        <p>
+          built by <span className="name">Chris Kakos</span>
+        </p>
+      </div>
     </div>
   );
 };
