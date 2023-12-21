@@ -44,7 +44,7 @@ const Chatbot = () => {
   return (
     <div className="Chatbot">
       <h1>React Chatbot</h1>
-      <div className="conversation">
+      <div className="chatbox">
         {chats && chats.length
           ? chats.map((chat, index) => (
               <p key={index} className={chat.role === "user" ? "user_msg" : ""}>

@@ -18,9 +18,9 @@
   font-size: 4em;
 }
 
-.Chatbot .conversation {
+.Chatbot .chatbox {
   height: 50%;
-  width: 50%;
+  width: 55%;
   overflow-y: scroll;
   border: 2px solid crimson;
 }
@@ -28,7 +28,7 @@
 .Chatbot textarea {
   position: relative;
   top: 2em;
-  width: 23rem;
+  width: 25.25rem;
   height: 5rem;
   resize: none;
   overflow-y: scroll;
@@ -37,7 +37,7 @@
 
 .Chatbot button {
   margin-top: 2em;
-  width: 23rem;
+  width: 25.25rem;
   border: 2px solid gold;
 }
 
