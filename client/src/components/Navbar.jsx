@@ -1,3 +1,4 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "../styles/navbar.css";
 
 const Navbar = () => {
@@ -11,7 +12,7 @@ const Navbar = () => {
           target="_blank"
           rel="noreferrer"
         >
-          MD
+          <FontAwesomeIcon icon="fa-brands fa-medium" />
         </a>
         <a
           className="link"
@@ -19,7 +20,7 @@ const Navbar = () => {
           target="_blank"
           rel="noreferrer"
         >
-          LI
+          <FontAwesomeIcon icon="fa-brands fa-linkedin-in" />
         </a>
         <a
           className="link"
@@ -27,7 +28,7 @@ const Navbar = () => {
           target="_blank"
           rel="noreferrer"
         >
-          GH
+          <FontAwesomeIcon icon="fa-brands fa-github" />
         </a>
       </div>
     </nav>

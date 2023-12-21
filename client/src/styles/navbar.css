@@ -33,8 +33,16 @@
   border: 2px solid gold;
 }
 
+/* .Navbar .links .link {
+
+} */
+
 .Navbar .links .link {
   margin: 0 1em 0 1em;
+  padding: 1em;
+  font-size: 1em;
+  text-align: center;
   text-decoration: none;
+  color: #fff;
   border: 2px solid green;
 }
