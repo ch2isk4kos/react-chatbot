@@ -22,22 +22,26 @@
   height: 50%;
   width: 55%;
   overflow-y: scroll;
+  border-radius: 0.5em;
   border: 2px solid crimson;
 }
 
 .Chatbot textarea {
   position: relative;
-  top: 2em;
+  top: 1em;
   width: 25.25rem;
   height: 5rem;
+  padding: 0.5em;
   resize: none;
   overflow-y: scroll;
+  border-radius: 0.5em;
   border: 2px solid crimson;
 }
 
 .Chatbot button {
-  margin-top: 2em;
+  margin-top: 1.5em;
   width: 25.25rem;
+  border-radius: 0.5em;
   border: 2px solid gold;
 }
 
