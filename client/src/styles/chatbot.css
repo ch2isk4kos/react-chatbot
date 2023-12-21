@@ -4,6 +4,7 @@
   align-items: center;
   justify-content: center;
   width: 65%;
+  height: 100vh;
   background-color: #2e3137;
   border: 2px solid gold;
 }

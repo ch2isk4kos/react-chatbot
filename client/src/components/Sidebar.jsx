@@ -3,8 +3,8 @@ import "../styles/sidebar.css";
 const Sidebar = () => {
   return (
     <div className="Sidebar">
-      <section className="open-chats"></section>
-      <section className="settings">
+      <div className="open-chats"></div>
+      <div className="settings">
         <div className="bottom-left">
           <p className="option">Link</p>
           <p className="option">Link</p>
@@ -13,7 +13,7 @@ const Sidebar = () => {
         <div className="bottom-right">
           <p className="hamburger">Link</p>
         </div>
-      </section>
+      </div>
     </div>
   );
 };
