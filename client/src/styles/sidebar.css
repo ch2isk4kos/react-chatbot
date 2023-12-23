@@ -80,6 +80,7 @@
   width: 35%;
   transition: 0.3s ease-in-out;
   opacity: 1;
+  overflow-y: scroll;
   z-index: 100;
   /* background: rgba(150, 250, 500, 10); */
 }
