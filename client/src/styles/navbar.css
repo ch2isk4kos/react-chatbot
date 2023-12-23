@@ -19,9 +19,14 @@
 } */
 
 .Navbar .logo {
+  position: relative;
+  min-width: 5%;
   align-self: center;
-  margin-left: 2em;
+  margin-left: 1em;
   border: 2px solid gold;
+}
+.Navbar .logo .react {
+  color: aqua;
 }
 
 .Navbar .links {
@@ -50,5 +55,5 @@
 
 .Navbar .links .link:hover {
   cursor: pointer;
-  background-color: gold;
+  color: gold;
 }

@@ -4,7 +4,12 @@ import "../styles/navbar.css";
 const Navbar = () => {
   return (
     <nav className="Navbar">
-      <h1 className="logo">LOGO</h1>
+      <h1 className="logo">
+        <span className="react">
+          <FontAwesomeIcon icon="fa-brands fa-react" />
+        </span>{" "}
+        Chatbot
+      </h1>
       <div className="links">
         <a
           className="link"
