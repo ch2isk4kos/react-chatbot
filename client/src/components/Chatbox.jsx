@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import OpenAI from "openai";
 import "../styles/chatbot.css";
 
@@ -74,7 +75,20 @@ const Chatbot = () => {
           <i className="isTyping">{isTyping ? "Typing..." : ""}</i>
         </p>
       </div>
-      <div className="settings"></div>
+      <div className="settings">
+        <a href="#info" className="option">
+          <FontAwesomeIcon icon="fa-solid fa-circle-info" />
+        </a>
+        <a href="#help" className="option">
+          <FontAwesomeIcon icon="fa-solid fa-terminal" />
+        </a>
+        <a href="#download" className="option">
+          <FontAwesomeIcon icon="fa-solid fa-download" />
+        </a>
+        <a href="#export" className="option">
+          <FontAwesomeIcon icon="fa-solid fa-file-export" />
+        </a>
+      </div>
       <div className="author">
         <p>
           built by <span className="name">Chris Kakos</span>

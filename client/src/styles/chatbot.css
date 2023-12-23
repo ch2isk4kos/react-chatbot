@@ -14,8 +14,11 @@
 
 .Chatbot h1 {
   position: absolute;
-  top: 6%;
-  font-size: 4em;
+  top: 10%;
+  max-width: 100%;
+  font-size: 2em;
+  font-stretch: expanded;
+  border: 2px solid green;
 }
 
 .Chatbot .chatbox {
@@ -49,10 +52,15 @@
 }
 
 .Chatbot button {
-  margin-top: 1.5em;
   min-width: 75%;
+  margin-top: 1.5em;
+  padding: 0.25em;
+  font-weight: bold;
   border-radius: 0.5em;
   border: 2px solid gold;
+}
+.Chatbot button:hover {
+  cursor: pointer;
 }
 
 .Chatbot .isTyping {
@@ -63,10 +71,25 @@
 .Chatbot .settings {
   position: absolute;
   bottom: 4em;
-  min-width: 75%;
+  min-width: 50%;
   height: 5rem;
   z-index: 100;
   border: 2px solid gold;
+}
+.Chatbot .settings .option {
+  position: relative;
+  top: 28%;
+  padding: 0.5em;
+  font-size: 1.25em;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  border: 2px solid green;
+}
+.Chatbot .settings .option:hover {
+  cursor: pointer;
+  color: gold;
+  /* background-color: gold;f */
 }
 
 .Chatbot .author {
@@ -75,6 +98,10 @@
   margin-top: 1em;
   padding: 1em;
   border: 2px solid gold;
+}
+.Chatbot .author .name {
+  font-weight: bold;
+  color: gold;
 }
 
 /* Mobile first queries */
