@@ -44,7 +44,6 @@ const Chatbot = () => {
 
   return (
     <div className="Chatbot">
-      <h1>React Chatbot</h1>
       <div className="chatbox">
         <p>How Can I Help You?</p>
         {chats && chats.length
