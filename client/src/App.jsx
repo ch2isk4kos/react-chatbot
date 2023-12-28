@@ -1,5 +1,5 @@
 import "./App.css";
-import Home from "./components/Home";
+import Main from "./components/Main";
 // import Chatbox from "./components/Chatbox";
 import Sidebar from "./components/Sidebar";
 import Navbar from "./components/Navbar";
@@ -49,7 +49,7 @@ function App() {
       <section>
         <Sidebar />
         {/* <Chatbox /> */}
-        <Home />
+        <Main />
       </section>
     </div>
   );

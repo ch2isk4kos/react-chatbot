@@ -1,4 +1,4 @@
-.Home {
+.Main {
   position: relative;
   top: 5%;
   display: flex;
@@ -12,7 +12,7 @@
   border: 2px solid gold;
 }
 
-.Home h1 {
+.Main h1 {
   position: absolute;
   top: 10%;
   max-width: 100%;
