@@ -1,0 +1,22 @@
+.Home {
+  position: relative;
+  top: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 65%;
+  height: 100vh;
+  background-color: #2e3137;
+  text-decoration: none;
+  border: 2px solid gold;
+}
+
+.Home h1 {
+  position: absolute;
+  top: 10%;
+  max-width: 100%;
+  font-size: 2em;
+  font-stretch: expanded;
+  border: 2px solid green;
+}
