@@ -1,6 +1,6 @@
 import "./App.css";
-import Main from "./components/Main";
-// import Chatbox from "./components/Chatbox";
+import Chatbox from "./components/Chatbox";
+// import Chatbox2 from "./components/Chatbox2";
 import Sidebar from "./components/Sidebar";
 import Navbar from "./components/Navbar";
 import { library } from "@fortawesome/fontawesome-svg-core";
@@ -48,8 +48,7 @@ function App() {
       </header>
       <section>
         <Sidebar />
-        {/* <Chatbox /> */}
-        <Main />
+        <Chatbox />
       </section>
     </div>
   );
